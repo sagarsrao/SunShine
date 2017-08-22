@@ -2,63 +2,77 @@ package yml.com.sunshine.model;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.util.List;
+
 /**
  * Created by sagar on 21/8/17.
  */
 
-public class Movie  {
+public class Movie {
 
 
-  @SerializedName("poster_path")
-  String moviePoster_path;
+    @SerializedName("poster_path")
+    String poster_path;
 
-  @SerializedName("overview")
-  String movieoverview;
+    @SerializedName("overview")
+    String overview;
 
-  @SerializedName("title")
-  String movieTitle;
-
-
-  @SerializedName("vote_count")
-  String movieVoteCount;
+    @SerializedName("title")
+    String title;
 
 
-  public Movie(String moviePoster_path, String movieoverview, String movieTitle, String movieVoteCount) {
-    this.moviePoster_path = moviePoster_path;
-    this.movieoverview = movieoverview;
-    this.movieTitle = movieTitle;
-    this.movieVoteCount = movieVoteCount;
-  }
+    @SerializedName("vote_count")
+    String vote_count;
 
-  public String getMoviePoster_path() {
-    return moviePoster_path;
-  }
 
-  public void setMoviePoster_path(String moviePoster_path) {
-    this.moviePoster_path = moviePoster_path;
-  }
+    @SerializedName("results")
+    private List<Movie> movieResults;
 
-  public String getMovieoverview() {
-    return movieoverview;
-  }
+    public List<Movie> getMovieResults() {
+        return movieResults;
+    }
 
-  public void setMovieoverview(String movieoverview) {
-    this.movieoverview = movieoverview;
-  }
+    public void setMovieResults(List<Movie> movieResults) {
+        this.movieResults = movieResults;
+    }
 
-  public String getMovieTitle() {
-    return movieTitle;
-  }
+    public Movie(String poster_path, String overview, String title, String vote_count) {
+        this.poster_path = poster_path;
 
-  public void setMovieTitle(String movieTitle) {
-    this.movieTitle = movieTitle;
-  }
+        this.overview = overview;
+        this.title = title;
+        this.vote_count = vote_count;
+    }
 
-  public String getMovieVoteCount() {
-    return movieVoteCount;
-  }
+    public String getPoster_path() {
+        return poster_path;
+    }
 
-  public void setMovieVoteCount(String movieVoteCount) {
-    this.movieVoteCount = movieVoteCount;
-  }
+    public void setPoster_path(String poster_path) {
+        this.poster_path = poster_path;
+    }
+
+    public String getOverview() {
+        return overview;
+    }
+
+    public void setOverview(String overview) {
+        this.overview = overview;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getVote_count() {
+        return vote_count;
+    }
+
+    public void setVote_count(String vote_count) {
+        this.vote_count = vote_count;
+    }
 }

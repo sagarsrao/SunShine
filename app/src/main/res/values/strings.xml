@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name">SunShine</string>
+    <string name="app_name">PopularMovies</string>
     <string name="app_footer">Copyright @2017 SunShine Inc .All Rights Reserved@</string>
+    <string name="network_failure">Oops! Network Data fetch failed!</string>
 </resources>
