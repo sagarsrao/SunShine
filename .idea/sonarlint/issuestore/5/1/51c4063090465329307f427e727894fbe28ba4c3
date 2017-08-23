@@ -1,4 +1,5 @@
 
-gsquid:S1226"FIntroduce a new variable instead of reusing the parameter "movieList".(èçÆÔûÿÿÿÿ8°€¥à+
-•squid:S1319"tThe type of the "movieList" object should be an interface such as "List" rather than the implementation "ArrayList".(ÂßÚºúÿÿÿÿ8²›ş¤à+
 asquid:UselessImportCheck"3Remove this unused import 'android.graphics.Movie'.(ÃøÆ‰ùÿÿÿÿ8¨‹¤à+
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ªÃ¹¢ûÿÿÿÿ8ˆõ›Íà+
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Çö–ñıÿÿÿÿ8û¦›Íà+
+fsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÈÓ‚W8äûšÍà+

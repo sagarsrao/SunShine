@@ -15,3 +15,9 @@ q
 Aapp/src/main/java/yml/com/sunshine/activities/SplashActivity.java,a/f/afbcb2c712866ef7db53a633fe36748e614df860
 o
 ?app/src/main/java/yml/com/sunshine/fragments/MovieFragment.java,8/e/8e6f52bb05af94d89b2e1e428a03af556105c88b
+k
+;app/src/main/java/yml/com/sunshine/constants/Constants.java,9/3/93560171ed1297cf28385662c9aa1ce8ea66b2d3
+s
+Capp/src/main/java/yml/com/sunshine/networkservices/MovieClient.java,8/1/81bf124e55d71546a9e14de688a14e850db9b766
+v
+Fapp/src/main/java/yml/com/sunshine/networkservices/MovieInterface.java,b/0/b08673aab97d026e5ec3267833ad05dca87f6df3

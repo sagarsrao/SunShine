@@ -1,4 +1,4 @@
 
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÂÙÐ“8ÌÛ§à+
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(·©’œþÿÿÿÿ8È®Û§à+
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¿Ñ§­8´¨‘¨à+
+~squid:S1450"bRemove the "linearLayoutManager" field and declare it as a local variable in the relevant methods.(„žñš8“«ýÈà+
+Csquid:S1185"(Remove this method to simply inherit it.(¥Ë©8å™êÁà+
+]squid:UselessImportCheck"/Remove this unused import 'org.json.JSONArray'.(¬¸Ê’üÿÿÿÿ8³åÈà+

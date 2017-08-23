@@ -77,13 +77,13 @@ public class MovieFragment extends Fragment {
         movieCall.enqueue(new Callback<Movie>() {
             @Override
             public void onResponse(Call<Movie> call, Response<Movie> response) {
-                    listMovie = (ArrayList<Movie>) response.body().getMovieResults();
+                listMovie = (ArrayList<Movie>) response.body().getMovieResults();
                 if (response.isSuccessful()) {
                     try {
                         mRecyclerView.setAdapter(new MovieAdapter(getContext(), listMovie));
                     } catch (Exception e) {
 
-                        Log.d(TAG, "onResponse: "+e.getMessage());
+                        Log.d(TAG, "onResponse: " + e.getMessage());
                     }
                 }
             }
