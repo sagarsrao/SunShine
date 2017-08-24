@@ -21,3 +21,5 @@ s
 Capp/src/main/java/yml/com/sunshine/networkservices/MovieClient.java,8/1/81bf124e55d71546a9e14de688a14e850db9b766
 v
 Fapp/src/main/java/yml/com/sunshine/networkservices/MovieInterface.java,b/0/b08673aab97d026e5ec3267833ad05dca87f6df3
+w
+Gapp/src/main/java/yml/com/sunshine/activities/MovieDetailsActivity.java,f/4/f41cef81adf3860fbb4e360819a635e1315f0dab

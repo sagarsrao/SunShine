@@ -1,4 +1,4 @@
 
-~squid:S1450"bRemove the "linearLayoutManager" field and declare it as a local variable in the relevant methods.(„ñš8“«ıÈà+
-Csquid:S1185"(Remove this method to simply inherit it.(¥Ë©8å™êÁà+
 ]squid:UselessImportCheck"/Remove this unused import 'org.json.JSONArray'.(¬¸Ê’üÿÿÿÿ8³åÈà+
+Csquid:S1185"(Remove this method to simply inherit it.(¥Ë©8å™êÁà+
+~squid:S1450"bRemove the "linearLayoutManager" field and declare it as a local variable in the relevant methods.(„ñš8“«ıÈà+

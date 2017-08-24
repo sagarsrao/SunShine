@@ -2,8 +2,6 @@ package yml.com.sunshine.adapters;
 
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.Movie;
 import android.os.Bundle;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -11,7 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.squareup.picasso.Picasso;
 
@@ -45,7 +42,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewHol
     @Override
     public MovieAdapter.MovieViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.list_weather, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.list_movies, parent, false);
 
 
         return new MovieViewHolder(view);
@@ -64,10 +61,9 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewHol
         holder.movieImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(context, "you clicked on the image", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(context, "you clicked on the image", Toast.LENGTH_SHORT).show();
                 Intent gotoMovieDetailsActivity = new Intent(context, MovieDetailsActivity.class);
                 Bundle bundle = new Bundle();
-
                 bundle.putString("POSTER_PATH", movieList.get(position).getPoster_path());
                 bundle.putString("MOVIE_TITLE", movieList.get(position).getTitle());
                 bundle.putString("MOVIE_OVERVIEW", movieList.get(position).getOverview());

@@ -96,20 +96,24 @@ public class MovieDetailsActivity extends AppCompatActivity {
                 .into(mPosterImage);
 
         String title = bundle.getString("MOVIE_TITLE");
-        movieTitle.setText(title);
+        movieTitle.setText("Title:" + title);
+        movieTitle.setTextColor(Color.BLACK);
 
         String date = bundle.getString("MOVIE_RELEASE_DATE");
-        movieReleaseDate.setText(date);
+        movieReleaseDate.setText("ReleaseDate:" + date);
+        movieReleaseDate.setTextColor(Color.BLACK);
 
         String overView = bundle.getString("MOVIE_OVERVIEW");
-        movieOverView.setText(overView);
+        movieOverView.setText("Overview:" + overView);
+        movieOverView.setTextColor(Color.BLACK);
 
         String voteCount = bundle.getString("MOVIE_VOTE_COUNT");
-        movieVoteAverage.setText(voteCount);
+        movieVoteAverage.setText("VoteCount:" + voteCount);
+        movieVoteAverage.setTextColor(Color.BLACK);
 
         String popularity = bundle.getString("MOVIE_POPULARITY");
-        moviePopularity.setText(popularity);
-
+        moviePopularity.setText("Popularity:" + popularity);
+        moviePopularity.setTextColor(Color.BLACK);
 
     }
 }
