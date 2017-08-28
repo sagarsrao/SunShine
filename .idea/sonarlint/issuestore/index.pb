@@ -23,3 +23,11 @@ v
 Fapp/src/main/java/yml/com/sunshine/networkservices/MovieInterface.java,b/0/b08673aab97d026e5ec3267833ad05dca87f6df3
 w
 Gapp/src/main/java/yml/com/sunshine/activities/MovieDetailsActivity.java,f/4/f41cef81adf3860fbb4e360819a635e1315f0dab
+i
+9app/src/main/java/yml/com/sunshine/model/LatestMovie.java,c/0/c047395807c0358e6bffd4e29bff906b7f650e7a
+k
+;app/src/main/java/yml/com/sunshine/model/TopRatedMovie.java,c/4/c4eaf6988c7fd13a15f691a96e75782fda34a285
+t
+Dapp/src/main/java/yml/com/sunshine/fragments/NowPlayingFragment.java,2/6/261032a87b191a50e7594eeba654774904373a31
+w
+Gapp/src/main/java/yml/com/sunshine/fragments/TopRatedMovieFragment.java,f/4/f4551463235400d840544cfd68862fb1770fdc93
