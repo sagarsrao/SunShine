@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Window;
@@ -19,10 +20,14 @@ import com.squareup.picasso.Picasso;
 
 import org.w3c.dom.Text;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import yml.com.sunshine.R;
 import yml.com.sunshine.constants.Constants;
+import yml.com.sunshine.model.Movie;
 
 /**
  * Created by sagar on 23/8/17.
@@ -52,6 +57,9 @@ public class MovieDetailsActivity extends AppCompatActivity {
     TextView moviePopularity;
 
 
+    List<Movie> movieList;
+
+
     @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -72,7 +80,7 @@ public class MovieDetailsActivity extends AppCompatActivity {
         myToolBar.setTitleTextColor(Color.WHITE);
         myToolBar.setBackgroundColor(getColor(R.color.colorPrimary));
         setSupportActionBar(myToolBar);
-
+        movieList = new ArrayList<>();
 
         myToolBar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override

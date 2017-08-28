@@ -64,6 +64,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewHol
                 //Toast.makeText(context, "you clicked on the image", Toast.LENGTH_SHORT).show();
                 Intent gotoMovieDetailsActivity = new Intent(context, MovieDetailsActivity.class);
                 Bundle bundle = new Bundle();
+               // bundle.putParcelable("GOTO_NEXT_ADAPTER",bundle);
                 bundle.putString("POSTER_PATH", movieList.get(position).getPoster_path());
                 bundle.putString("MOVIE_TITLE", movieList.get(position).getTitle());
                 bundle.putString("MOVIE_OVERVIEW", movieList.get(position).getOverview());
