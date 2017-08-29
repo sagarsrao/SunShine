@@ -53,6 +53,14 @@ public class Movie {
         this.popularity = popularity;
     }
 
+
+    public Movie(String poster_path, String title, String release_date, String popularity) {
+        this.poster_path = poster_path;
+        this.title = title;
+        this.release_date = release_date;
+        this.popularity = popularity;
+    }
+
     public String getRelease_date() {
         return release_date;
     }

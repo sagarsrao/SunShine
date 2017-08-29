@@ -4,10 +4,17 @@
     <dimen name="eleven_dp">11dp</dimen>
     <dimen name="ten_dp">10dp</dimen>
     <dimen name="forty_sp">40sp</dimen>
-
+    <dimen name="eighteen_dp">18dp</dimen>
+    <dimen name="two_hundred_ninety_dp">290dp</dimen>
     <dimen name="twenty_six_dp">26dp</dimen>
+    <dimen name="twenty_eight_dp">28dp</dimen>
+    <dimen name="thirty_eight_dp">38dp</dimen>
+    <dimen name="twenty_dp">20dp</dimen>
+    <dimen name="fifty_four_dp">54dp</dimen>
+    <dimen name="fifty_eight_dp">58dp</dimen>
     <dimen name="zero_dp">0dp</dimen>
     <dimen name="three_hundred_forty_eight_dp">348dp</dimen>
+    <dimen name="two_hundred_ninety">290dp</dimen>
     <dimen name="four_hundred_dp">400dp</dimen>
     <dimen name="eight_dp">8dp</dimen>
     <dimen name="two_hundred_dp">200dp</dimen>
@@ -23,8 +30,9 @@
     <dimen name="seventy_three_dp">73dp</dimen>
     <dimen name="thirty_dp">30dp</dimen>
     <dimen name="fourteen_dp">14dp</dimen>
+    <dimen name="one_hundred_forty_dp">140dp</dimen>
     <dimen name="eighty_dp">80dp</dimen>
     <dimen name="eighty_one_dp">80dp</dimen>
     <dimen name="sixty_one_dp">61dp</dimen>
-
+    <dimen name="one_hundred_ninety_dp">190dp</dimen>
 </resources>

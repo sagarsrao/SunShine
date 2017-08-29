@@ -48,11 +48,10 @@ public class NowPlayingFragment extends android.support.v4.app.Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
 
-        View view = inflater.inflate(R.layout.fragment_movie,container,false);
-        ButterKnife.bind(this , view);
-        linearLayoutManager = new GridLayoutManager(getContext(),2);
+        View view = inflater.inflate(R.layout.fragment_movie, container, false);
+        ButterKnife.bind(this, view);
+        linearLayoutManager = new GridLayoutManager(getContext(), 2);
         mRecyclerView.setLayoutManager(linearLayoutManager);
-
 
 
         MovieInterface movieInterface = MovieClient.getClient().create(MovieInterface.class);
@@ -84,5 +83,5 @@ public class NowPlayingFragment extends android.support.v4.app.Fragment {
 
         return view;
 
-         }
+    }
 }

@@ -11,6 +11,9 @@ import static yml.com.sunshine.constants.Constants.BASE_URL;
 
 public class MovieClient {
 
+    private MovieClient() {
+    }
+
     private static Retrofit retrofit = null;
 
 

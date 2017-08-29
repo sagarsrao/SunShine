@@ -1,6 +1,7 @@
 
-[squid:UselessImportCheck"-Remove this unused import 'org.w3c.dom.Text'.(¶Äè‹şÿÿÿÿ8—ûà+
-_squid:UselessImportCheck"1Remove this unused import 'android.widget.Toast'.(©›ïÍúÿÿÿÿ8¶Ã§øà+
-osquid:MaximumInheritanceDepth"<This class has 7 parents which is greater than 5 authorized.(ÏùĞÃûÿÿÿÿ8¶©ğà+
 ^squid:UselessImportCheck"0Remove this unused import 'android.view.Window'.(¿è™÷úÿÿÿÿ8¬Êé÷à+
+osquid:MaximumInheritanceDepth"<This class has 7 parents which is greater than 5 authorized.(ÏùĞÃûÿÿÿÿ8¶©ğà+
+[squid:UselessImportCheck"-Remove this unused import 'org.w3c.dom.Text'.(¶Äè‹şÿÿÿÿ8ÿ…‰Åâ+
+_squid:UselessImportCheck"1Remove this unused import 'android.widget.Toast'.(©›ïÍúÿÿÿÿ8¶Ã§øà+
 `squid:UselessImportCheck"7Remove this unused import 'android.view.WindowManager'.(Ü³‹Å8¬Êé÷à+
+lsquid:UselessImportCheck"CRemove this unused import 'android.support.v7.widget.RecyclerView'.(ÊŠáó8€ƒŠÅâ+

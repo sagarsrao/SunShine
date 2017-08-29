@@ -31,3 +31,5 @@ t
 Dapp/src/main/java/yml/com/sunshine/fragments/NowPlayingFragment.java,2/6/261032a87b191a50e7594eeba654774904373a31
 w
 Gapp/src/main/java/yml/com/sunshine/fragments/TopRatedMovieFragment.java,f/4/f4551463235400d840544cfd68862fb1770fdc93
+t
+Dapp/src/main/java/yml/com/sunshine/adapters/MovieDetailsAdapter.java,7/6/76edaa8865abca5bbedb783acf1adbe5621a3d1a

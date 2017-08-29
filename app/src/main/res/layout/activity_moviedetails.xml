@@ -21,10 +21,10 @@
     <!-- A CardView that contains a TextView -->
     <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
         android:id="@+id/card_view"
-        android:layout_width="175dp"
-        android:layout_height="175dp"
+        android:layout_width="@dimen/one_hundred_seventy_five_dp"
+        android:layout_height="@dimen/one_hundred_seventy_five_dp"
         android:layout_gravity="center"
-        android:layout_marginLeft="10dp"
+        android:layout_marginLeft="@dimen/ten_dp"
         android:layout_marginTop="@dimen/sixty_dp"
         card_view:cardCornerRadius="@dimen/ten_dp"
         card_view:layout_constraintLeft_toLeftOf="parent"
@@ -48,8 +48,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/card_view"
-        android:layout_marginStart="58dp"
-        android:layout_marginTop="38dp"
+        android:layout_marginStart="@dimen/fifty_eight_dp"
+        android:layout_marginTop="@dimen/thirty_eight_dp"
         android:layout_toEndOf="@+id/card_view" />
 
     <TextView
@@ -58,16 +58,32 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/card_view"
         android:layout_alignStart="@+id/text_MovieName"
-        android:layout_marginBottom="28dp" />
+        android:layout_marginBottom="@dimen/twenty_eight_dp" />
 
     <TextView
         android:id="@+id/text_Movie_OverView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/card_view"
-        android:layout_margin="10dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="54dp" />
+        android:layout_margin="@dimen/ten_dp"
+        android:layout_marginLeft="@dimen/twenty_dp"
+        android:layout_marginTop="@dimen/fifty_four_dp" />
+
+
+    <!--Implement recyclerView for horizontal moving of videos -->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_HorizontalRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/two_hundred_ninety_dp"
+        android:scrollbars="horizontal"
+
+        >
+
+
+    </android.support.v7.widget.RecyclerView>
+
 
     <TextView
         android:id="@+id/text_movie_count"
@@ -75,7 +91,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/text_Movie_OverView"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="@dimen/fifty_dp"
         android:layout_marginLeft="@dimen/ten_dp"
         android:layout_marginRight="@dimen/ten_dp" />
 
@@ -85,6 +101,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/text_movie_count"
-        android:layout_marginBottom="18dp" />
+        android:layout_marginBottom="@dimen/eighteen_dp" />
 
 </RelativeLayout>

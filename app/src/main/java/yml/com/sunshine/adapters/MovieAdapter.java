@@ -20,6 +20,7 @@ import butterknife.ButterKnife;
 import yml.com.sunshine.R;
 import yml.com.sunshine.activities.MovieDetailsActivity;
 import yml.com.sunshine.constants.Constants;
+import yml.com.sunshine.model.Movie;
 
 /**
  * Created by sagar on 21/8/17.
@@ -31,12 +32,15 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewHol
     Context context;
 
 
+    Movie movie;
+
     List<yml.com.sunshine.model.Movie> movieList = new ArrayList<>();
 
 
     public MovieAdapter(Context context, List<yml.com.sunshine.model.Movie> movieList) {
         this.context = context;
         this.movieList = movieList;
+
     }
 
     @Override
@@ -61,17 +65,15 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewHol
         holder.movieImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Toast.makeText(context, "you clicked on the image", Toast.LENGTH_SHORT).show();
                 Intent gotoMovieDetailsActivity = new Intent(context, MovieDetailsActivity.class);
                 Bundle bundle = new Bundle();
-               // bundle.putParcelable("GOTO_NEXT_ADAPTER",bundle);
                 bundle.putString("POSTER_PATH", movieList.get(position).getPoster_path());
                 bundle.putString("MOVIE_TITLE", movieList.get(position).getTitle());
                 bundle.putString("MOVIE_OVERVIEW", movieList.get(position).getOverview());
+
                 bundle.putString("MOVIE_VOTE_COUNT", movieList.get(position).getVote_count());
                 bundle.putString("MOVIE_RELEASE_DATE", movieList.get(position).getRelease_date());
                 bundle.putString("MOVIE_POPULARITY", movieList.get(position).getPopularity());
-
                 gotoMovieDetailsActivity.putExtras(bundle);
 
                 context.startActivity(gotoMovieDetailsActivity);
