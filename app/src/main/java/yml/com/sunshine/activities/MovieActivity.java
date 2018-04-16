@@ -43,7 +43,7 @@ public class MovieActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_movie);
         ButterKnife.bind(this);
-
+        //HIE
         //set the toolbar
         myToolBar.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
         myToolBar.setTitleTextColor(Color.WHITE);
